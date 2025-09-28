@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculadora">
+        <div id="painel"></div>
+        <div>
+            <!-- coluna 1 -->
+            <div class="colunas">
+                <button class="botoes"></button>
+                <button class="botoes" onclick="limpar()">CE</button>
+                <button class="botoes" onclick="divisao()">/</button>
+                <button class="botoes" onclick="apagar()">⌫</button>
+            </div>
+            <!-- coluna 2 -->
+            <div class="colunas">
+                <button class="botoes" onclick="sete()">7</button>
+                <button class="botoes" onclick="oito()">8</button>
+                <button class="botoes" onclick="nove()">9</button>
+                <button class="botoes" onclick="vezes()">*</button>
+            </div>
+            <!-- coluna 3 -->
+            <div class="colunas">
+                <button class="botoes" onclick="quatro()">4</button>
+                <button class="botoes" onclick="cinco()">5</button>
+                <button class="botoes" onclick="seis()">6</button>
+                <button class="botoes" onclick="menos()">-</button>
+            </div>
+            <!-- coluna 4 -->
+            <div class="colunas">
+                <button class="botoes" onclick="um()">1</button>
+                <button class="botoes" onclick="dois()">2</button>
+                <button class="botoes" onclick="tres()">3</button>
+                <button class="botoes" onclick="mais()">+</button>
+            </div>
+            <!-- coluna 5 -->
+            <div class="colunas">
+                <button class="botoes"></button>
+                <button class="botoes" onclick="zero()">0</button>
+                <button class="botoes" onclick="decimal()">,</button>
+                <button class="botoes" onclick="resultado()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
